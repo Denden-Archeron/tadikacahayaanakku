@@ -131,10 +131,10 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
           {[
-            { title: "Babyland", age: "1-2 Years", img: "/babyland.jpg" },
-            { title: "Playschool", age: "3-4 Years", img: "/playschool.jpg" },
-            { title: "Preschool", age: "5-6 Years", img: "/preschool.jpg" },
-            { title: "Transit", age: "After School Care", img: "/transit.jpg" },
+            { title: "Babyland", age: "1-2 Years", img: "/Babyland.jpg" },
+            { title: "Playschool", age: "3-4 Years", img: "/Playschool.jpg" },
+            { title: "Preschool", age: "5-6 Years", img: "/Preschool.jpg" },
+            { title: "Transit", age: "After School Care", img: "/Transit.jpg" },
           ].map((item, i) => (
             <motion.div
               key={i}
